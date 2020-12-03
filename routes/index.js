@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { v4: uuidv4 } = require('uuid');
-const stripe = require('stripe')("sk_test_51Htb8mC1MOsR1H04hdPhNBvv0FkbLToTFkcjrzrgXFihNyteN61pkL6Ycb4D6fabgdXGOe7CbELOnp7VdYWRlRpF00yOcin8c4");
+const stripe = require('stripe')("Enter your stripe secret key here");
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
