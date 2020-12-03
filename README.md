@@ -1,6 +1,6 @@
 # stripe-example
 
-It is simple example, which give a information about how to use stripe using react and node js
+It is simple example, which give a information about how to use stripe using react and node js.
 
 ## Usage
 
